@@ -15,7 +15,7 @@
       ]
     },
     "dg-filetree": {
-      "enabled": true
+      "enabled": false
     },
     "atlas-statblocks": {
       "repo": "ZombieAce/atlas-statblocks-garden-plugin",
