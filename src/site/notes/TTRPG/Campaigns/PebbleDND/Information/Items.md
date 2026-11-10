@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/ttrpg/campaigns/pebble-dnd/information/items/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
-## Common
+## <span style="color:rgb(120, 120, 120)">Common</span>
 #### Stomach Stew
 > Heal 1 HP
 ## <span style="color:rgb(145, 174, 232)">Rare</span>
