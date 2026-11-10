@@ -16,6 +16,42 @@
     },
     "dg-filetree": {
       "enabled": false
+    },
+    "atlas-statblocks": {
+      "repo": "ZombieAce/atlas-statblocks-garden-plugin",
+      "installedVersion": "1.0.0",
+      "installedRef": "master",
+      "installedAt": "2026-11-10T18:40:53.276Z",
+      "enabled": true,
+      "files": [
+        "src/plugins/atlas-statblocks/LICENSE",
+        "src/plugins/atlas-statblocks/NOTICE.md",
+        "src/plugins/atlas-statblocks/README.md",
+        "src/plugins/atlas-statblocks/assets/atlas-statblocks.js",
+        "src/plugins/atlas-statblocks/build/ATLAS_COMMIT",
+        "src/plugins/atlas-statblocks/build/build.mjs",
+        "src/plugins/atlas-statblocks/build/package.json",
+        "src/plugins/atlas-statblocks/build/src/entry.tsx",
+        "src/plugins/atlas-statblocks/build/src/gardenApp.ts",
+        "src/plugins/atlas-statblocks/build/src/host.ts",
+        "src/plugins/atlas-statblocks/build/src/markdown.ts",
+        "src/plugins/atlas-statblocks/build/src/obsidian-shim.ts",
+        "src/plugins/atlas-statblocks/build/src/runtime.ts",
+        "src/plugins/atlas-statblocks/build/stubs/AssetService.ts",
+        "src/plugins/atlas-statblocks/build/stubs/FantasyStatblocksService.ts",
+        "src/plugins/atlas-statblocks/build/stubs/SettingsService.ts",
+        "src/plugins/atlas-statblocks/build/stubs/languages.ts",
+        "src/plugins/atlas-statblocks/build/stubs/statblockDiceLinks.ts",
+        "src/plugins/atlas-statblocks/build/stubs/statblockHitPoints.ts",
+        "src/plugins/atlas-statblocks/build/stubs/statblockRolls.ts",
+        "src/plugins/atlas-statblocks/build/theme.css",
+        "src/plugins/atlas-statblocks/build/vite.config.mts",
+        "src/plugins/atlas-statblocks/custom-templates/Custom.atlastemplate",
+        "src/plugins/atlas-statblocks/garden-plugin.json",
+        "src/plugins/atlas-statblocks/index.js",
+        "src/plugins/atlas-statblocks/styles/atlas-statblocks.css",
+        "src/plugins/atlas-statblocks/templates/head.njk"
+      ]
     }
   }
 }
