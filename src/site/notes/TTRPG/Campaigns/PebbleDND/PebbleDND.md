@@ -11,6 +11,7 @@
 ## Overview
 This is a very loose DND campaign, the first campaign to ever be GM'd by ZombieAce.
 The entire world is set in an environment resembling Project Moon's **[[TTRPG/Campaigns/PebbleDND/Information/The City\|The City]]**
+> "May you find your book in this place."
 ## Party Members
 - [[atlas-vtt/collections/PebbleDND/players/Jackie\|Jackie]]
 - [[atlas-vtt/collections/PebbleDND/players/Lewis\|Lewis]]
