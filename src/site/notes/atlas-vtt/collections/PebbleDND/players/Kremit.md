@@ -7,7 +7,6 @@
 Genetic Defect -> Looks like a cola man
 # Inventory
 Ahn: 8
-- 1x EGO Suit: Bear Paws
 - 1x Pancreas
 - 1x Liver
 - 1x R.B. Chef Garbs

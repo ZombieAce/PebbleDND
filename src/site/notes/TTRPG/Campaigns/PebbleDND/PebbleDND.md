@@ -17,5 +17,12 @@ The entire world is set in an environment resembling Project Moon's **[[TTRPG/Ca
 - [[atlas-vtt/collections/PebbleDND/players/Fanatic\|Fanatic]]
 - [[atlas-vtt/collections/PebbleDND/players/Kremit\|Kremit]]
 - [[atlas-vtt/collections/PebbleDND/players/Hagrid\|Hagrid]]
+## Useful Info
+- [[TTRPG/Campaigns/PebbleDND/Information/Weaponry\|Weaponry]]
+- [[TTRPG/Campaigns/PebbleDND/Information/Armor\|Armor]]
+- [[TTRPG/Campaigns/PebbleDND/Information/Gear\|Gear]]
+- [[TTRPG/Campaigns/PebbleDND/Information/Items\|Items]]
+- [[TTRPG/Campaigns/PebbleDND/Information/Books\|Books]]
+- [[]]
 ## Notes
 we are fucking cooked with these rolls bro.
