@@ -20,5 +20,7 @@ The entire world is set in an environment resembling Project Moon's **[[TTRPG/Ca
 ## Useful Info
 - [[TTRPG/Campaigns/PebbleDND/Information/Books\|Books]]
 - [[TTRPG/Campaigns/PebbleDND/Information/Items\|Items]]
+- [[DND General Information\|DND General Information]]
+- [[TTRPG/Campaigns/PebbleDND/Sessions\|Sessions]]
 ## Notes
 we are fucking cooked with these rolls bro.
