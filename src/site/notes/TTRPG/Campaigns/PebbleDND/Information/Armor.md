@@ -10,7 +10,7 @@ Armor determines the overall Armor Class of a person and some even boost certain
 - Special -> Unique abilities provided by the equipment
 ## Basic
 #### Brotherhood of Iron Armor
-> AC11 | Dex & Con -1
+> AC11 | Dex & Con -1 | +1 paralyze with actions
 #### Scrapshield Office Suit
 > AC11 | +1 to all Defensive action checks
 #### R.B. Chef Garbs
@@ -21,6 +21,13 @@ Armor determines the overall Armor Class of a person and some even boost certain
 > AC12
 > After killing an enemy, heal for 2 HP (4 HP if enemy had bleed).
 > The last kill in the encounter heals everyone in Chef attire by 2 HP
+#### Quebec Scavanger
+> AC10
+> After an encounter, if Ahn is found, double the amount gained
+#### Quebec Collector
+> AC10
+> After an encounter, if Ahn is found, double the amount gained
+> If an enemy rolls below 5 when targetting wearer, DC +4 for the next action
 #### Gyeong-Mi's Outfit
 > AC10 | Str +2 & Con +2
 ## Workshop
