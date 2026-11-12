@@ -91,7 +91,7 @@ Not much is known about this race, but one thing is clear: Unlike what their nam
 - **Play the System** -> DC12 (If nat20 use **Play Around the System** instead) | Roll a d4
 	- 1 -> Rewind an ally (heal 2 HP)
 	- 2 -> Rewind attack (next hit gets an extra attack die)
-	- 3 -> Collapse (Debuff the enemies needed roll, making it need to be 2 higher for a succesful hit)
+	- 3 -> Collapse (Enemy DC +2)
 	- 4 -> Played (Rewind cooldowns)
 - **Play Around the System**
 	- 1 -> Revive an ally (20% HP)
