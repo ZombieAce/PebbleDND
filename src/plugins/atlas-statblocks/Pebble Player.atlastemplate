@@ -1,0 +1,469 @@
+{
+  "format": "atlas-statblock-template",
+  "version": 1,
+  "id": "pebble-player-z18032",
+  "fields": [
+    {
+      "key": "name",
+      "label": "Name",
+      "type": "text"
+    },
+    {
+      "key": "size",
+      "label": "Size",
+      "type": "text"
+    },
+    {
+      "key": "type",
+      "label": "type",
+      "type": "text"
+    },
+    {
+      "key": "subtype",
+      "label": "Subtype",
+      "type": "text"
+    },
+    {
+      "key": "alignment",
+      "label": "Alignment",
+      "type": "text"
+    },
+    {
+      "key": "image",
+      "label": "Image",
+      "type": "image"
+    },
+    {
+      "key": "ac",
+      "label": "Armor Class",
+      "type": "text"
+    },
+    {
+      "key": "hp",
+      "label": "Hit Points",
+      "type": "text"
+    },
+    {
+      "key": "stats",
+      "label": "Abilities",
+      "type": "scores",
+      "slots": [
+        "Str",
+        "Dex",
+        "Con",
+        "Int",
+        "Wis",
+        "Cha"
+      ]
+    },
+    {
+      "key": "skillsaves",
+      "label": "Skills",
+      "type": "pairs"
+    },
+    {
+      "key": "damage_immunities",
+      "label": "Damage Immunities",
+      "type": "text"
+    },
+    {
+      "key": "damage_resistances",
+      "label": "Damage Resistances",
+      "type": "text"
+    },
+    {
+      "key": "damage_vulnerabilities",
+      "label": "Damage Vulnerabilities",
+      "type": "text"
+    },
+    {
+      "key": "condition_immunities",
+      "label": "Condition Immunities",
+      "type": "text"
+    },
+    {
+      "key": "cr",
+      "label": "Level",
+      "type": "text"
+    },
+    {
+      "key": "level",
+      "label": "Proficiency Bonus",
+      "type": "text"
+    },
+    {
+      "key": "equipment",
+      "label": "Equipment",
+      "type": "entries"
+    },
+    {
+      "key": "traits",
+      "label": "Passives",
+      "type": "entries"
+    },
+    {
+      "key": "spells",
+      "label": "Spells",
+      "type": "entries"
+    },
+    {
+      "key": "actions",
+      "label": "Actions",
+      "type": "entries"
+    },
+    {
+      "key": "legendary_actions",
+      "label": "Legendary actions",
+      "type": "entries"
+    },
+    {
+      "key": "reactions",
+      "label": "Reactions",
+      "type": "entries"
+    },
+    {
+      "key": "xp",
+      "label": "XP",
+      "type": "text"
+    },
+    {
+      "key": "resources",
+      "label": "Resources",
+      "type": "counters",
+      "counterRows": [
+        {
+          "name": "Stored Blood",
+          "max": 3
+        }
+      ]
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "markdown",
+      "meaning": "description"
+    }
+  ],
+  "header": {
+    "hidden": [
+      "level",
+      "type",
+      "description"
+    ]
+  },
+  "layout": {
+    "maxColumns": 2,
+    "blocks": [
+      {
+        "id": "fs000001",
+        "type": "section",
+        "whenEmpty": "fold",
+        "blocks": [
+          {
+            "id": "fs000005",
+            "type": "line",
+            "fields": [
+              "size",
+              "type",
+              "subtype",
+              "alignment"
+            ],
+            "separator": " | ",
+            "whenEmpty": "fold"
+          }
+        ]
+      },
+      {
+        "id": "fs000006",
+        "type": "divider"
+      },
+      {
+        "id": "fs000007",
+        "type": "section",
+        "whenEmpty": "fold",
+        "blocks": [
+          {
+            "id": "fs000009",
+            "type": "stat",
+            "field": "ac",
+            "look": "run-in",
+            "whenEmpty": "fallback",
+            "fallback": "0"
+          }
+        ]
+      },
+      {
+        "id": "fs00000a",
+        "type": "divider"
+      },
+      {
+        "id": "fs00000b",
+        "type": "scores",
+        "field": "stats",
+        "orientation": "row",
+        "columns": [
+          {
+            "formula": "floor((value - 10) / 2)",
+            "display": "signed"
+          }
+        ],
+        "whenEmpty": "fold",
+        "fsExtras": {
+          "dice": false,
+          "diceProperty": "stats"
+        }
+      },
+      {
+        "id": "fs00000c",
+        "type": "divider",
+        "showWhen": {
+          "field": "stats",
+          "is": "present"
+        }
+      },
+      {
+        "id": "fs00000d",
+        "type": "section",
+        "whenEmpty": "fold",
+        "blocks": [
+          {
+            "id": "fs00000f",
+            "type": "pairs",
+            "field": "skillsaves",
+            "display": "signed",
+            "whenEmpty": "fold"
+          },
+          {
+            "id": "fs00000g",
+            "type": "stat",
+            "field": "damage_vulnerabilities",
+            "label": "Damage Vulnerabilities:",
+            "look": "run-in",
+            "whenEmpty": "fold"
+          },
+          {
+            "id": "fs00000h",
+            "type": "stat",
+            "field": "damage_resistances",
+            "label": "Damage Resistances:",
+            "look": "run-in",
+            "whenEmpty": "fold"
+          },
+          {
+            "id": "fs00000i",
+            "type": "stat",
+            "field": "damage_immunities",
+            "label": "Damage Immunities:",
+            "look": "run-in",
+            "whenEmpty": "fold"
+          },
+          {
+            "id": "fs00000j",
+            "type": "stat",
+            "field": "condition_immunities",
+            "label": "Condition Immunities:",
+            "look": "run-in",
+            "whenEmpty": "fold"
+          },
+          {
+            "id": "fs00000l",
+            "type": "row",
+            "align": "spread",
+            "whenEmpty": "fold",
+            "blocks": [
+              {
+                "id": "fs00000m",
+                "type": "stat",
+                "field": "cr",
+                "look": "run-in",
+                "whenEmpty": "fallback",
+                "fallback": "-"
+              },
+              {
+                "id": "fjfn1iok",
+                "type": "stat",
+                "field": "xp",
+                "look": "run-in",
+                "pattern": "{xp} / {cr|lookup:xpreq}",
+                "showWhen": {
+                  "field": "xp",
+                  "is": "present"
+                },
+                "whenEmpty": "fold"
+              },
+              {
+                "id": "fs00000n",
+                "type": "stat",
+                "field": "level",
+                "look": "run-in",
+                "pattern": "{cr|lookup:proficiency_bonus}",
+                "whenEmpty": "fallback",
+                "fallback": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lzpo4vx2",
+        "type": "counters",
+        "field": "resources",
+        "whenEmpty": "fold"
+      },
+      {
+        "id": "fs00000o",
+        "type": "entries",
+        "field": "equipment",
+        "heading": "Equipment",
+        "fallback": "-"
+      },
+      {
+        "id": "fs00000p",
+        "type": "entries",
+        "field": "traits",
+        "heading": "Passives",
+        "whenEmpty": "fold",
+        "fsExtras": {
+          "dice": false
+        }
+      },
+      {
+        "id": "fs00000q",
+        "type": "entries",
+        "field": "spells",
+        "heading": "Spells",
+        "whenEmpty": "fold",
+        "fallback": "-"
+      },
+      {
+        "id": "fs00000r",
+        "type": "entries",
+        "field": "actions",
+        "heading": "Actions",
+        "whenEmpty": "fold",
+        "fsExtras": {
+          "dice": true
+        }
+      },
+      {
+        "id": "rh8y0lmp",
+        "type": "entries",
+        "field": "legendary_actions",
+        "heading": "Legendary Actions"
+      },
+      {
+        "id": "fs00000w",
+        "type": "entries",
+        "field": "reactions",
+        "heading": "Reactions",
+        "whenEmpty": "fold",
+        "fsExtras": {
+          "dice": true
+        }
+      }
+    ]
+  },
+  "lookups": {
+    "xpreq": {
+      "1": "300",
+      "2": "900",
+      "3": "2,700",
+      "4": "6,500",
+      "5": "14,000",
+      "6": "23,000",
+      "7": "34,000",
+      "8": "48,000",
+      "9": "64,000",
+      "10": "85,000",
+      "11": "100,000",
+      "12": "120,000",
+      "13": "140,000",
+      "14": "165,000",
+      "15": "195,000",
+      "16": "225,000",
+      "17": "265,000",
+      "18": "305,000",
+      "19": "355,000",
+      "20": "MAX"
+    },
+    "proficiency_bonus": {
+      "0": "+2",
+      "1": "+2",
+      "2": "+2",
+      "3": "+2",
+      "4": "+2",
+      "5": "+3",
+      "6": "+3",
+      "7": "+3",
+      "8": "+3",
+      "9": "+4",
+      "10": "+4",
+      "11": "+4",
+      "12": "+4",
+      "13": "+5",
+      "14": "+5",
+      "15": "+5",
+      "16": "+5",
+      "17": "+6",
+      "18": "+6",
+      "19": "+6",
+      "20": "+6",
+      "21": "+7",
+      "22": "+7",
+      "23": "+7",
+      "24": "+7",
+      "25": "+8",
+      "26": "+8",
+      "27": "+8",
+      "28": "+8",
+      "29": "+9",
+      "30": "+9"
+    }
+  },
+  "recovery": [
+    {
+      "id": "rest-tagit8",
+      "name": "Short Rest",
+      "rules": [
+        {
+          "target": {
+            "kind": "resource",
+            "field": "hp"
+          },
+          "does": "amount",
+          "formula": "5"
+        },
+        {
+          "target": {
+            "kind": "counters",
+            "field": "resources",
+            "rows": "all"
+          },
+          "does": "amount",
+          "formula": "1"
+        }
+      ]
+    },
+    {
+      "id": "rest-u7ig9c",
+      "name": "Long Rest",
+      "rules": [
+        {
+          "target": {
+            "kind": "resource",
+            "field": "hp"
+          },
+          "does": "full"
+        },
+        {
+          "target": {
+            "kind": "counters",
+            "field": "resources",
+            "rows": "all"
+          },
+          "does": "full"
+        }
+      ]
+    }
+  ]
+}
