@@ -6,7 +6,7 @@
 ```
 Genetic Defect -> Looks like a cola man
 # Inventory
-<span style="color:rgb(236, 216, 116)">Ahn</span>: 8
+<span style="color:rgb(236, 216, 116)">Ahn</span>: 18
 - 1x Pancreas
 - 1x Liver
 - 1x [[TTRPG/Campaigns/PebbleDND/Information/Armor#R.B. Chef Garbs\|R.B. Chef Garbs]]

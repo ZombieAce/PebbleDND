@@ -5,7 +5,7 @@
 # Overview
 Weapons can come in various different forms, each one with their own properties that make them either helpful or crippling in certain combat encounters. Knowing which weapons to use when are key to survival.
 ### Properties
-- Damage -> Decided by a certain amount of d6 rolls. Can be **slash**, **blunt** or **pierce**.
+- Damage -> Decided by a certain amount of dice rolls. Can be **slash**, **blunt** or **pierce**.
 - Ranged -> Can be used without having to get close to the enemy (Will be given a range stat in meters)
 - Effects -> What [[TTRPG/Campaigns/PebbleDND/Information/Status Effects\|Status Effects]] the weapon applies
 - Versatility -> Determines the DC (Difficulty Class) for using this weapon. Factors that influence this property are: size, material and effects
@@ -18,6 +18,10 @@ Weapons can come in various different forms, each one with their own properties 
 > Str DC10 | 1d8 slash
 #### Chef's Knife 
 > Str DC10 | 1d6 slash | Bleed 1 turn
+#### Quebec Stiletto
+> Str DC10 | 1d6 pierce
+#### Minor League Bat
+> Str DC11 | 1d8 blunt
 ## Workshop
 #### W. Corp Sword
 > Wis DC12 | 1d8 slash | Consume 2 charge to add an extra hit die

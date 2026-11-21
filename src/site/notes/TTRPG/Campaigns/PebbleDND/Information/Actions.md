@@ -33,8 +33,10 @@
 > Str DC13 | 3d6 blunt | 3 paralyze
 #### COMPLETE AND TOTAL EXTERMINATION
 > Str DC16 | 3d20 blunt | 8 paralyze & 8 bleed
+> > 1 Charge
 #### Mine! Mine!
 > Dex DC13 | 2d4 pierce | 1 disarmed
+> > 5 Charges
 #### Brawl
 > Str DC13 | 2d6 blunt | 1 bind
 #### Crush
@@ -65,6 +67,7 @@
 > Cha DC14 | Summon 2 Middle Siblings to aid in battle
 #### Give me that!
 > Dex DC11 | 1 disarmed
+> > 3 Charges
 ### <span style="color:rgb(196, 155, 238)">Magical</span>
 # <span style="color:rgb(236, 216, 116)">Unique</span>
 ### <span style="color:rgb(232, 141, 141)">Physical</span>

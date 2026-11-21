@@ -5,7 +5,7 @@
 ```atlas-statblock
 ```
 # Inventory
-<span style="color:rgb(236, 216, 116)">Ahn</span>: 8
+<span style="color:rgb(236, 216, 116)">Ahn</span>: 18
 - 1x Cat Sticker
 - 3x [[TTRPG/Campaigns/PebbleDND/Information/Items#Master Class Human Meal\|Master Class Human Meal]]
 - 1x [[TTRPG/Campaigns/PebbleDND/Information/Weaponry#Chef's Knife\|Chef's Knife]]

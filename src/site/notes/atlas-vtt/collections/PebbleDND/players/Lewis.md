@@ -5,4 +5,4 @@
 ```atlas-statblock
 ```
 # Inventory
-<span style="color:rgb(236, 216, 116)">Ahn</span>: 0
+<span style="color:rgb(236, 216, 116)">Ahn</span>: 10

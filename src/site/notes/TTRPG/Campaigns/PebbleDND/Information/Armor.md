@@ -28,6 +28,9 @@ Armor determines the overall Armor Class of a person and some even boost certain
 > AC10
 > After an encounter, if Ahn is found, double the amount gained
 > If an enemy rolls below 5 when targetting wearer, DC +4 for the next action
+#### Minor League Outfit
+> AC11
+> WIP
 #### Gyeong-Mi's Outfit
 > AC10 | Str +2 & Con +2
 ## Workshop

@@ -5,5 +5,5 @@
 ```atlas-statblock
 ```
 # Inventory
-<span style="color:rgb(236, 216, 116)">Ahn</span>: 50
+<span style="color:rgb(236, 216, 116)">Ahn</span>: 60
 - Stomach Stew
